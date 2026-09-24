@@ -9,3 +9,4 @@ data/gold/*
 __pycache__/
 *.pyc
 .venv/
+desktop.ini
