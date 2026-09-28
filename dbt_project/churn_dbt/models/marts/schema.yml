@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: fct_customer_churn_features
+    columns:
+      - name: customer_id
+        data_tests:
+          - not_null
+          - unique
+      - name: churn_j30
+        data_tests:
+          - not_null
