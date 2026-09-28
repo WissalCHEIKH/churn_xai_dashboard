@@ -10,3 +10,7 @@ __pycache__/
 *.pyc
 .venv/
 desktop.ini
+echo dbt_project/keys/>>.gitignore
+
+dbt_project/keys/
+dbt_project/logs/
