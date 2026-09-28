@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw
+    database: thinking-field-468009-s0
+    schema: churn_telecom
+    tables:
+      - name: raw_crm
+      - name: raw_service
+      - name: raw_billing
+      - name: churn_label
